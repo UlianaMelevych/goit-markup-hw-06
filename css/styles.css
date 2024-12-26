@@ -397,9 +397,9 @@ gap: 40px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bg-hero-mobile.jpg");
     background-repeat: no-repeat;
-    background-size: 320px 432px;
-    width: 320px;
-    height: 432px;
+    background-size: cover;
+   max-width: 320px;
+   
     background-size: cover;
     background-position: center; 
     }
@@ -411,10 +411,9 @@ gap: 40px;
 
 @media screen and (min-width: 768px){
     .main-page-hero{
-     width: 768px;
-     height: 436px;
+    min-width: 768px;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bg-hero-tablet.jpg");
-     background-size: 768px 436px;
+     background-size: cover;
     }
  @media screen and (min-resolution: 192dpi){
     .main-page-hero{
@@ -426,17 +425,15 @@ gap: 40px;
 
 @media screen and (min-width: 1158px){
     .main-page-hero{
-       
-        width: 1440px;
-     height: 600px;
+       min-width: 1158px;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoffice.jpg");
-     background-size: 1440px 600px;
+     background-size: cover;
     }
  @media screen and (min-resolution: 192dpi){
         .main-page-hero{
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoffice@2x.jpg");
-            min-width: 1158px;
+            
         }   
     }
 }    
