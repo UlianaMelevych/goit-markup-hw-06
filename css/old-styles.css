@@ -178,6 +178,29 @@ background: url("path_to_image");
     margin-bottom: 8px 
 
 }
+/*display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    align-items: baseline;
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;*/
+        @media screen and (min-width: 768px){
+            .footer-page{
+               
+            }
+            .footer-list-container{
+                margin-right: 120px;
+            }
+            
+        }
+
+
+
+
+
 .portfolio-descr{
     justify-content: center;
 font-weight: 500;
