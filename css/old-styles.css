@@ -179,6 +179,7 @@ background: url("path_to_image");
 
 }
 /*display: flex;
+padding: auto;
     flex-wrap: wrap;
     column-gap: 24px;
     align-items: baseline;
