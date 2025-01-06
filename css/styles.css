@@ -315,12 +315,18 @@ background-color: #404bbf;
 
 }
 .menu-mobile-nav{
-    display: flex;
-flex-direction: column;
-
+    
 margin-bottom: auto;
-}
 
+
+}
+.menu-mobile-list-nav{
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 40px;
+}
 .menu-mobile-line-nav.menu-open{
     color: #404bbf;
 }
@@ -337,17 +343,21 @@ color: #2e2f42;
     margin-bottom: 0;
 }
 .menu-mobile-cont{
+    
+    margin-bottom: 48px;
+}
+.menu-mobile-cont-list{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 .menu-mobile-cont-line.menu-tel{
     color: #4d5ae5;
 }
 .menu-mobile-cont-line{
+    
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
