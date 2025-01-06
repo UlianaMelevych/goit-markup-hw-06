@@ -402,7 +402,8 @@ gap: 40px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bg-hero-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   max-width: 320px;
+   min-width: 320px;
+   max-width: 767px;
     background-position: center; 
     }
     @media screen and (min-resolution: 192dpi){
@@ -411,9 +412,10 @@ gap: 40px;
         }
     }
 
-@media screen and (min-width: 767px){
-    .main-page-hero{
-    min-width: 768px;
+@media screen (min-width: 768px) and (max-width: 1157px) {
+    .main-page-hero {
+        min-width: 768px;
+   max-width: 1157px;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bg-hero-tablet.jpg");
     
     }
@@ -425,7 +427,7 @@ gap: 40px;
 }}    
 }
 
-@media screen and (min-width: 1157px){
+@media screen and (min-width: 1158px){
     .main-page-hero{
         min-width: 1158px;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/peopleoffice.jpg");
